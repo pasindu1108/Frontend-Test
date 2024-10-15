@@ -1,4 +1,102 @@
-.container{
-    height: 80vh;
-    background-color: aliceblue;
+/* Styele form the page */
+
+.todoList {
+    list-style: none;
+    padding: 0;
 }
+
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.inputArea {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.editInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.addButton {
+    padding: 10px 20px;
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .addButton:hover {
+        background-color: #c09b9b;
+    }
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.todoText {
+    flex: 1;
+}
+
+.editButton,
+.deleteButton {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editButton {
+    background-color: #b6ff00;
+    color: white;
+}
+
+    .editButton:hover {
+        background-color: #e0a800;
+    }
+
+.deleteButton {
+    background-color: #dc3545;
+    color: white;
+}
+
+    .deleteButton:hover {
+        background-color: #c82333;
+    }
+
+
